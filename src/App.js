@@ -8,12 +8,12 @@ import LibraryList from './components/LibraryList'
 
 const App = () => {
   return (
-  <Provider store = { createStore(reducers) } >
-    <View style={{ flex: 1 }}>
-      <Header headerText="Tech Stack" />
-      <LibraryList />
-    </View>
-  </Provider>
+    <Provider store={createStore(reducers)}>
+      <View style={{ flex: 1 }}>
+        <Header headerText="Tech Stack" />
+        <LibraryList />
+      </View>
+    </Provider>
   )
 }
 
