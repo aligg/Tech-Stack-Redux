@@ -20,7 +20,6 @@ class LibraryList extends Component {
 // purpose of ListView: render a long list of items in a memory efficient fashion
 
   render() {
-    console.log('hello')
     return (
       <ListView
         dataSource={this.dataSource}
